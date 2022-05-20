@@ -18,14 +18,16 @@ if(!exists('stocks') || max(stocks$date) < today() - 1)
         mutate(log2_returns = round(log2(last_price) - log2(adjusted), 2),
                log2_price = log2(adjusted))
 }
+
 ##### UI #####
 ui <- fluidPage(
     theme = shinytheme('superhero'),
     headerPanel(
         wellPanel(
-            list(HTML('<a href="https://github.com/jwychor"><img src="https://i.ibb.co/n3r8vLx/logo.png" alt="logo" border="0" style="height: 100px; width: 100px;" /></a>','Investment Comparison',
-                      HTML('<br /><h4><a href="https://github.com/Jwychor/Investment-Analysis">Source Code</a></h4>'))
-            ),
+            list(
+              HTML('<a href="https://github.com/jwychor"><img src="https://i.ibb.co/n3r8vLx/logo.png" alt="logo" border="0" style="height: 100px; width: 100px;" /></a>','Investment Comparison'),
+              HTML('<br /><h4><a href="https://github.com/Jwychor/Crypto-Analysis">Source Code</a></h4>')
+             ),
             tags$hr()
         )
     ),
