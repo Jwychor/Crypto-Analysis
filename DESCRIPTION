@@ -1,0 +1,15 @@
+Package: InvestmentReturns
+Version: 0.1
+License: GPL-3
+Author: Jack Wychor
+Date: 2021-11-20
+Title: Gradient Analytics HW
+Description: An R/Shiny dashboard used for analyzing stock returns.
+Maintainer: Jack Wychor <jack.wychor@mnsu.edu>
+Depends:
+  tidyquant,
+  tidyverse,
+  ggrepel,
+  shiny,
+  shinydashboard,
+  shinythemes
