@@ -1,5 +1,5 @@
 # Investment Analysis
-An R and Rmarkdown package analyzing top stocks and crypto returns and prices.
+An R Shiny and Plotly package analyzing top stocks and crypto returns and prices.
 
 ## Installation
 The following code will install the package on your machine.
