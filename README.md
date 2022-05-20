@@ -14,3 +14,7 @@ if(!'rlang' %in% installed.packages()){
 }
 remotes::install_github("Jwychor/Crypto-Analysis")
 ```
+# Examples
+![image](https://github.com/Jwychor/Crypto-Analysis/blob/master/Images/Dashboard1.JPG)
+
+A live demo of the dashboard hosted on shinyapps.io can be found [here.](https://jwychor.shinyapps.io/InvestmentAnalysis/)
