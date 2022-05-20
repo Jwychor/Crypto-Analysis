@@ -12,5 +12,5 @@ if(!'remotes' %in% installed.packages()){
 if(!'rlang' %in% installed.packages()){
   remotes::install_github('r-lib/rlang', dependencies = TRUE)
 }
-remotes::install_github("Jwychor/Crypto_Analysis")
+remotes::install_github("Jwychor/Crypto-Analysis")
 ```
