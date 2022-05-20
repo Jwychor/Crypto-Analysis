@@ -1,4 +1,4 @@
-# Investment Analysis
+# Crypto Analysis
 An R Shiny and Plotly package analyzing top stocks and crypto returns and prices.
 
 ## Installation
