@@ -5,10 +5,8 @@ account: jwychor
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 5172946
-bundleId: 5928961
+bundleId:
 url: https://jwychor.shinyapps.io/InvestmentAnalysis/
-when: 1653096386.63869
-lastSyncTime: 1653096386.63869
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: .Rbuildignore|.RData|DESCRIPTION|Images/Dashboard1.JPG|NAMESPACE|README.md
