@@ -30,7 +30,7 @@ dataRefresh <- function(newTickers = NULL, getBaseData = FALSE){
              first_price = min(adjusted[date == symbol_min_date]),
              last_price = max(adjusted[date == symbol_max_date])) %>%
       ungroup() %>%
-      mutate(log2_returns = round(log2(last_price) - log2(adjusted), 2),
+      mutate(log2_returns = round(log2(last_price/adjusted), 2),
              log2_price = log2(adjusted))
     
     if(getBaseData){
